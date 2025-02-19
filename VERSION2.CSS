@@ -6,208 +6,133 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
-/* Container principal */
 .container {
-    width: 85%;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 20px;
 }
 
-/* Header Section */
+/* Header */
 header {
-    background: linear-gradient(135deg, #007bff, #00c6ff);
-    color: white;
-    padding: 80px 0;
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-header p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-.cta-button {
-    background-color: #ff5722;
-    color: white;
-    padding: 12px 40px;
-    text-decoration: none;
-    font-size: 1.1em;
-    border-radius: 30px;
-    transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-    background-color: #e64a19;
-}
-
-/* Features Section */
-#features {
-    padding: 60px 0;
-    background-color: #ffffff;
-    text-align: center;
-}
-
-#features h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.features-list {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.feature-item {
-    background-color: #f9f9f9;
-    padding: 30px;
-    width: 30%;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.feature-item:hover {
-    transform: translateY(-10px);
-}
-
-.feature-item h3 {
-    font-size: 1.8em;
-    margin-bottom: 15px;
-}
-
-.feature-item p {
-    font-size: 1.1em;
-    color: #666;
-}
-
-/* Service Section */
-#service {
-    padding: 60px 0;
-    background-color: #f0f0f0;
-    text-align: center;
-}
-
-#service h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-#service p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-#service ul {
-    list-style-type: none;
-}
-
-#service li {
-    font-size: 1.1em;
-    color: #666;
+    font-size: 3rem;
     margin-bottom: 10px;
 }
 
-/* Process Section */
-#process {
-    padding: 60px 0;
-    background-color: #e0f7fa;
-    text-align: center;
+header p {
+    font-size: 1.2rem;
 }
 
-#process h2 {
-    font-size: 2.5em;
+/* Services Section */
+.services {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
-.process-steps {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.step {
-    background-color: #ffffff;
-    padding: 30px;
-    width: 30%;
-    border-radius: 8px;
+.service-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.step h3 {
-    font-size: 1.8em;
-    margin-bottom: 15px;
+.service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
-.step p {
-    font-size: 1.1em;
-    color: #666;
+.service-item p {
+    font-size: 1rem;
+    color: #333;
 }
 
-/* Contact Section */
-#contact {
-    padding: 60px 0;
-    background-color: #007bff;
-    color: white;
+/* CTA Section */
+.cta {
+    background-color: #333;
+    color: #fff;
     text-align: center;
+    padding: 50px 20px;
 }
 
-#contact h2 {
-    font-size: 2.5em;
+.cta h2 {
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
-#contact p {
-    font-size: 1.2em;
-    margin-bottom: 40px;
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
-#contact form {
-    display: inline-block;
-    text-align: left;
-    background-color: #ffffff;
-    padding: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    width: 100%;
-    max-width: 600px;
-}
-
-#contact input, #contact textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
+.cta .btn {
+    background-color: #ff6f61;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
 }
 
-#contact button {
-    background-color: #ff5722;
-    color: white;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
+.cta .btn:hover {
+    background-color: #e14f3d;
 }
 
-#contact button:hover {
-    background-color: #e64a19;
-}
-
-/* Footer Section */
+/* Footer */
 footer {
     background-color: #333;
-    color: white;
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Styles */
+
+/* Para pantallas de hasta 768px (tabletas y dispositivos grandes) */
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .services h2 {
+        font-size: 1.8rem;
+    }
+
+    .service-item {
+        margin: 15px 0;
+    }
+
+    .cta h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Para pantallas de hasta 480px (móviles pequeños) */
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+       
